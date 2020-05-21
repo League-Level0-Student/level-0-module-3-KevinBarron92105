@@ -5,19 +5,21 @@ package _03_high_low;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class HighLowGame {
 
 	public static void main(String[] args) {
 		// 3. Change this line to give you a random number between 1 - 100. 
-		int random = new Random().nextInt(5);
+		int randomNum = new Random().nextInt(100);
 		
 		// 2. Print out the random variable above
-		
+			System.out.println(randomNum);
 		// 11. Repeat steps 1 to 10 ten times
 		
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
-
-			//zzzz 4. Convert the users’ answer to an int (Integer.parseInt(string))
+			String userInput =  JOptionPane.showInputDialog(null, "Guess the number that I'm thinking of");
+			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
 			
 			// 5. if the guess is correct
 				// 6. Win
