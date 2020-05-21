@@ -19,6 +19,7 @@ public class HighLowGame {
 		
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
 			String userInput =  JOptionPane.showInputDialog(null, "Guess the number that I'm thinking of");
+			System.out.println();
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
 			
 			// 5. if the guess is correct
